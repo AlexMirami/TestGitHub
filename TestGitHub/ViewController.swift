@@ -26,5 +26,8 @@ class ViewController: UIViewController {
         mainLabel.text = "Label changed"
     }
     
+    @IBAction func changeAnotherTextAction(_ sender: Any) {
+        mainLabel.text = "Hello from Kirill :)"
+    }
 }
 
